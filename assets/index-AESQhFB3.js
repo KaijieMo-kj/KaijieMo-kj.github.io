@@ -196,7 +196,7 @@ Error generating stack: `+a.message+`
                 hover:shadow-stone-900/5
                 flex
                 flex-col
-              `,children:[b.jsx("div",{className:"space-y-3",children:l.map((s,u)=>b.jsxs("div",{className:"flex gap-4 group cursor-default",children:[b.jsx("div",{className:"shrink-0 text-base mt-0.5",children:s.tag.split(" ")[0]}),b.jsxs("div",{children:[b.jsxs("div",{className:"text-[10px] font-black text-stone-400 uppercase tracking-tighter mb-0.5",children:[s.date," • ",s.tag.split(" ")[1]]}),b.jsx("p",{className:"text-[13px] font-bold text-stone-500 leading-snug group-hover:text-stone-900 transition-colors",children:s.content})]})]},u))}),i>1&&b.jsx("div",{className:"flex justify-end mt-3",children:b.jsxs("div",{className:`
+              `,children:[b.jsx("div",{className:"space-y-3",children:l.map((s,u)=>b.jsxs("div",{className:"flex gap-4 group cursor-default",children:[b.jsx("div",{className:"shrink-0 text-base mt-0.5",children:s.tag.split(" ")[0]}),b.jsxs("div",{children:[b.jsxs("div",{className:"text-[10px] font-black text-stone-400 uppercase tracking-tighter mb-0.5",children:[s.date," • ",s.tag.split(" ")[1]]}),b.jsx("p",{className:"text-[13px] font-bold text-stone-500 leading-snug group-hover:text-stone-900 transition-colors",dangerouslySetInnerHTML:{__html:s.content}})]})]},u))}),i>1&&b.jsx("div",{className:"flex justify-end mt-3",children:b.jsxs("div",{className:`
                       flex items-center gap-2
                       text-[9px]
                       font-black
